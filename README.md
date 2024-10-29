@@ -1,12 +1,12 @@
-# 🧱 Vue x NuxtUI v3 Starter
+# 🏗️ Vue + NuxtUI v3 - Starter
 
 A modular Vue.js template system offering three levels of complexity to match your project needs.
 
-## 🌱 Templates
+## 🧱 Templates
 
 This repository maintains three template branches, each building upon the previous:
 
-### `lite` - Core Foundation
+### 🐣 `lite` - Core Foundation
 
 [![Lite Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
 
@@ -27,7 +27,7 @@ A minimal Vue.js setup with essential dependencies and configurations. Perfect f
 - Git configuration
 - Essential dependencies only
 
-### `lab` - Design Sandbox
+### 🧪 `lab` - Design Sandbox
 
 [![Lab Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
 
@@ -47,7 +47,7 @@ Builds on `lite` by adding design system integration and development tooling. Id
 - Additional development tools
 - Extended TypeScript setup
 
-### `launch` - Production Ready
+### 🚀 `launch` - Production Ready
 
 [![Launch Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
 
