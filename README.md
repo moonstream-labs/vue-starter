@@ -10,7 +10,7 @@ This repository maintains three template branches, each building upon the previo
 
 [![Lite Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
 
-A minimal Vue.js setup with essential dependencies and configurations. Perfect for:
+A minimal Vue setup with essential dependencies and configurations. Perfect for:
 
 - Proof of concept projects
 - Learning and experimentation
@@ -19,7 +19,7 @@ A minimal Vue.js setup with essential dependencies and configurations. Perfect f
 
 **Key Features:**
 
-- Vue 3 with TypeScript
+- Vue 3 + TypeScript
 - NuxtUI v3
 - Tailwind v4
 - Vite
@@ -105,7 +105,7 @@ rm -rf .git
 git init
 
 # Install dependencies
-npm install
+pnpm install
 
 # Set up development branches
 git checkout -b develop
