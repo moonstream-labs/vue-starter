@@ -1,89 +1,187 @@
-# Vue 3 + Nuxt UI Starter Template
+# Vue Starter Template
 
-A modern Vue.js starter template featuring Vue 3, TypeScript, Vite, and Nuxt UI.
+A modular Vue.js template system offering three levels of complexity to match your project needs.
 
-## Features
+## 🌱 Template Structure
 
-- ⚡️ [Vue 3](https://vuejs.org/) with [Vite](https://vitejs.dev/)
-- 🔧 [TypeScript](https://www.typescriptlang.org/)
-- 🎨 [Nuxt UI v3](https://ui3.nuxt.dev/) - Beautiful and accessible components
-- 📦 Auto-imports and component registration
-- 🛠️ [pnpm](https://pnpm.io/) for fast, disk-efficient package management
+This repository maintains three template branches, each building upon the previous:
 
-## Prerequisites
+### `lite` - Core Foundation
 
-- Node.js (v22)
-- pnpm
+[![Lite Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
 
-## Getting Started
+A minimal Vue.js setup with essential dependencies and configurations. Perfect for:
 
-1. Clone the repository
+- Proof of concept projects
+- Learning and experimentation
+- Starting fresh with maximum flexibility
+- Testing core dependency updates
+
+**Key Features:**
+
+- Vue 3 with TypeScript
+- NuxtUI v3
+- Tailwind v4
+- Vite
+- Basic folder structure
+- Git configuration
+- Essential dependencies only
+
+### `lab` - Design Sandbox
+
+[![Lab Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
+
+Builds on `lite` by adding design system integration and development tooling. Ideal for:
+
+- UI/UX exploration
+- Component development
+- Design system integration
+- Rapid prototyping
+
+**Add-Ons:**
+
+- Design system integration
+- ESLint + Prettier setup
+- Component development environment
+- Additional development tools
+- Extended TypeScript setup
+
+### `launch` - Production Ready
+
+[![Launch Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
+
+A fully configured template ready for production applications. Perfect for:
+
+- Production applications
+- Storybook integration
+- Client projects
+- Team collaborations
+- Enterprise development
+
+**Add-Ons:**
+
+- Production optimizations
+- Deployment configurations
+- CI/CD setup
+- Testing framework
+- Documentation structure
+- Environment management
+- Security configurations
+
+## 📦 Getting Started
+
+### Choose Your Template
+
+1. **For minimal setup:**
+
 ```bash
-git clone <repository-url>
-cd starter
+git clone -b lite https://github.com/moonstream-labs/vue-starter.git my-project
 ```
 
-2. Create a `.npmrc` file in the project root
+2. **For design system development:**
+
 ```bash
-echo "shamefully-hoist=true" > .npmrc
+git clone -b lab https://github.com/moonstream-labs/vue-starter.git my-project
 ```
 
-3. Install dependencies
+3. **For production projects:**
+
 ```bash
-pnpm install
+git clone -b launch https://github.com/moonstream-labs/vue-starter.git my-project
 ```
 
-4. Start the development server
+### Initialize Your Project
+
+After cloning your chosen template:
+
 ```bash
-pnpm dev
+# Navigate to project directory
+cd my-project
+
+# Remove template git history
+rm -rf .git
+
+# Initialize new git repository
+git init
+
+# Install dependencies
+npm install
+
+# Set up development branches
+git checkout -b develop
+git branch main
+git branch staging
+
+# Make initial commit
+git add .
+git commit -m "init: project setup from vue-starter template"
 ```
 
-## Project Structure
+## 🔄 Upgrading Templates
+
+### Moving from `lite` to `lab`
+
+If you started with `lite` and need design system features:
+
+```bash
+# Add the template repository as a remote
+git remote add template https://github.com/moonstream-labs/vue-starter.git
+
+# Fetch template branches
+git fetch template
+
+# Merge lab template
+git merge template/lab
+
+# Resolve any conflicts and commit
+git add .
+git commit -m "upgrade: integrate lab template features"
+
+# Remove template remote
+git remote remove template
+```
+
+### Moving from `lab` to `launch`
+
+If you need to upgrade a `lab` project to full production setup:
+
+```bash
+# Same process as above, but merge launch
+git remote add template https://github.com/moonstream-labs/vue-starter.git
+git fetch template
+git merge template/launch
+```
+
+## 📝 Template Maintenance
+
+### Branch Structure
 
 ```
-.
-├── src/
-│   ├── components/     # Vue components
-│   ├── App.vue        # Root component
-│   └── main.ts        # Application entry point
-├── public/            # Static assets
-├── .npmrc            # pnpm configuration
-├── tsconfig.app.json # TypeScript configuration
-└── vite.config.ts    # Vite configuration
+lite (core dependencies)
+  ↓
+lab (design system integration)
+  ↓
+launch (production configuration)
 ```
 
-## Type Support
+Updates flow from `lite` → `lab` → `launch` to maintain consistency across templates.
 
-The template includes TypeScript support with:
-- Vue 3 + TypeScript
-- Auto-generated component types
-- Auto-generated auto-import types
+### Development Process
 
-## Development
+1. Create feature branch from appropriate template branch
+2. Develop and test changes
+3. Submit pull request to template branch
+4. After merge, changes will be propagated to dependent templates
 
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm preview` - Preview production build
+## 📜 License
 
-## Dependencies
+MIT
 
-### Core
-- Vue 3.5.x
-- Vue Router 4.4.x
-- Nuxt UI (v3 alpha)
+## 💬 Support
 
-### Development
-- Vite 5.4.x
-- TypeScript 5.5.x
-- Vue TypeScript Compiler (vue-tsc)
-- Various auto-import plugins
+- Create an issue for bug reports
+- Start a discussion for questions
+- Submit a pull request for improvements
 
-## Notes
-
-- Uses the experimental v3 version of Nuxt UI
-- Requires `shamefully-hoist=true` in `.npmrc` for proper dependency resolution
-- Auto-generates type declarations for components and imports
-
-## License
-
-[MIT](LICENSE)
+---
+Built with ❤️ by [Moonstream Labs](https://github.com/moonstream-labs)
