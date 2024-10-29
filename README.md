@@ -1,8 +1,8 @@
-# Vue Starter Template
+# 🧱 Vue x NuxtUI v3 Starter
 
 A modular Vue.js template system offering three levels of complexity to match your project needs.
 
-## 🌱 Template Structure
+## 🌱 Templates
 
 This repository maintains three template branches, each building upon the previous:
 
@@ -40,9 +40,10 @@ Builds on `lite` by adding design system integration and development tooling. Id
 
 **Add-Ons:**
 
-- Design system integration
+- Component Sandbox
+- Layout Sandbox
+- Design Lab integration
 - ESLint + Prettier setup
-- Component development environment
 - Additional development tools
 - Extended TypeScript setup
 
@@ -53,7 +54,6 @@ Builds on `lite` by adding design system integration and development tooling. Id
 A fully configured template ready for production applications. Perfect for:
 
 - Production applications
-- Storybook integration
 - Client projects
 - Team collaborations
 - Enterprise development
