@@ -12,24 +12,24 @@ This repository maintains three template branches, each building upon the previo
 
 A minimal Vue setup with essential dependencies and configurations. Perfect for:
 
-- Proof of concept projects
-- Learning and experimentation
-- Starting fresh with maximum flexibility
-- Testing core dependency updates
+-   Proof of concept projects
+-   Learning and experimentation
+-   Starting fresh with maximum flexibility
+-   Testing core dependency updates
 
 **Key Features:**
 
-- Vue 3 + TypeScript
-- NuxtUI v3
-- Tailwind v4
-- Vue Router
-- Vue Use
-- Vue DevTools
-- Vite
-- ESLint + [AntFu Config](https://github.com/antfu/eslint-config)
-- Basic folder structure
-- Git configuration
-- Essential dependencies only
+-   Vue 3 + TypeScript
+-   NuxtUI v3
+-   Tailwind v4
+-   Vue Router
+-   Vue Use
+-   Vue DevTools
+-   Vite
+-   ESLint + [AntFu Config](https://github.com/antfu/eslint-config)
+-   Basic folder structure
+-   Git configuration
+-   Essential dependencies only
 
 ### 🧪 `lab` - Design Sandbox
 
@@ -37,19 +37,19 @@ A minimal Vue setup with essential dependencies and configurations. Perfect for:
 
 Builds on `lite` by adding design system integration and development tooling. Ideal for:
 
-- UI/UX exploration
-- Component development
-- Design system integration
-- Rapid prototyping
+-   UI/UX exploration
+-   Component development
+-   Design system integration
+-   Rapid prototyping
 
 **Add-Ons:**
 
-- Component Sandbox
-- Layout Sandbox
-- Design Lab integration
-- ESLint + Prettier setup
-- Additional development tools
-- Extended TypeScript setup
+-   Component Sandbox
+-   Layout Sandbox
+-   Design Lab integration
+-   ESLint + Prettier setup
+-   Additional development tools
+-   Extended TypeScript setup
 
 ### 🚀 `launch` - Production Ready
 
@@ -57,20 +57,20 @@ Builds on `lite` by adding design system integration and development tooling. Id
 
 A fully configured template ready for production applications. Perfect for:
 
-- Production applications
-- Client projects
-- Team collaborations
-- Enterprise development
+-   Production applications
+-   Client projects
+-   Team collaborations
+-   Enterprise development
 
 **Add-Ons:**
 
-- Production optimizations
-- Deployment configurations
-- CI/CD setup
-- Testing framework
-- Documentation structure
-- Environment management
-- Security configurations
+-   Production optimizations
+-   Deployment configurations
+-   CI/CD setup
+-   Testing framework
+-   Documentation structure
+-   Environment management
+-   Security configurations
 
 ## 📦 Getting Started
 
@@ -183,9 +183,10 @@ MIT
 
 ## 💬 Support
 
-- Create an issue for bug reports
-- Start a discussion for questions
-- Submit a pull request for improvements
+-   Create an issue for bug reports
+-   Start a discussion for questions
+-   Submit a pull request for improvements
 
 ---
+
 Built with ❤️ by [Moonstream Labs](https://github.com/moonstream-labs)
