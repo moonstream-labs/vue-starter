@@ -26,7 +26,7 @@ A minimal Vue setup with essential dependencies and configurations. Perfect for:
 - Vue Use
 - Vue DevTools
 - Vite
-- ESLint + ![AntFu Config](https://github.com/antfu/eslint-config)
+- ESLint + [AntFu Config](https://github.com/antfu/eslint-config)
 - Basic folder structure
 - Git configuration
 - Essential dependencies only
