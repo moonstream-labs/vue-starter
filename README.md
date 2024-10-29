@@ -8,7 +8,7 @@ This repository maintains three template branches, each building upon the previo
 
 ### 🐣 `lite` - Core Foundation
 
-[![Lite Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
+![Lite Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)
 
 A minimal Vue setup with essential dependencies and configurations. Perfect for:
 
@@ -22,14 +22,18 @@ A minimal Vue setup with essential dependencies and configurations. Perfect for:
 - Vue 3 + TypeScript
 - NuxtUI v3
 - Tailwind v4
+- Vue Router
+- Vue Use
+- Vue DevTools
 - Vite
+- ESLint + ![AntFu Config](https://github.com/antfu/eslint-config)
 - Basic folder structure
 - Git configuration
 - Essential dependencies only
 
 ### 🧪 `lab` - Design Sandbox
 
-[![Lab Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
+![Lab Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)
 
 Builds on `lite` by adding design system integration and development tooling. Ideal for:
 
@@ -49,7 +53,7 @@ Builds on `lite` by adding design system integration and development tooling. Id
 
 ### 🚀 `launch` - Production Ready
 
-[![Launch Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)]()
+![Launch Branch Status](https://img.shields.io/badge/status-maintained-brightgreen)
 
 A fully configured template ready for production applications. Perfect for:
 
