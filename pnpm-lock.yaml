@@ -33,6 +33,9 @@ importers:
       eslint-plugin-format:
         specifier: ^0.1.2
         version: 0.1.2(eslint@9.13.0(jiti@2.3.3))
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@4.0.0-alpha.30)
       typescript:
         specifier: ^5.5.3
         version: 5.6.3
@@ -2885,6 +2888,11 @@ packages:
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
+
+  tailwindcss-animate@1.0.7:
+    resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders'
 
   tailwindcss@4.0.0-alpha.30:
     resolution: {integrity: sha512-e6OsN8n1nRLca2X8ix1QSa+oZA1IYktHw+epLI07+CeQzbLbIDNJieRdbcctM32TAy3vHKvEgdp0rM1WUbpIMQ==}
@@ -6460,6 +6468,10 @@ snapshots:
   tailwind-variants@0.2.1(tailwindcss@4.0.0-alpha.30):
     dependencies:
       tailwind-merge: 2.5.4
+      tailwindcss: 4.0.0-alpha.30
+
+  tailwindcss-animate@1.0.7(tailwindcss@4.0.0-alpha.30):
+    dependencies:
       tailwindcss: 4.0.0-alpha.30
 
   tailwindcss@4.0.0-alpha.30: {}
