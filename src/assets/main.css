@@ -1,3 +1,5 @@
+/* main.css */
+
 @import 'tailwindcss';
 @import '@nuxt/ui';
 
@@ -8,7 +10,7 @@
         url('/src/assets/fonts/PublicSans.ttf') format('truetype-variations');
 }
 
-@theme default {
+@theme {
     /* Defaults */
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -397,7 +399,7 @@
     --width-prose: 65ch;
 
     /* Fonts */
-    --font-family-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    --font-family-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
     --font-family-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
     --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
